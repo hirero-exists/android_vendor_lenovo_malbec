@@ -15,6 +15,33 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+    name: "libdolbyeffect",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/libdolbyeffect.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth.audio-impl",
     owner: "lenovo",
     strip: {
@@ -13585,6 +13612,37 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libGLESv3",
                 "libEGL",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdolbyproxyandroid",
+    owner: "lenovo",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libdolbyproxyandroid.so",
+            ],
+            shared_libs: [
+                "libdolbyottcameracontrol",
+                "libsensorndkbridge",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libbinder_ndk",
+                "libhidlbase",
+                "libc++",
                 "libc",
                 "libm",
                 "libdl",

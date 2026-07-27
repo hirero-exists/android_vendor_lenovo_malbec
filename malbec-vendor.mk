@@ -1345,11 +1345,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/malbec/proprietary/vendor/lib64/qsn1rtlp430.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1rtlp430.bin \
     vendor/lenovo/malbec/proprietary/vendor/lib64/qsn1rtlp43270.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1rtlp43270.bin \
     vendor/lenovo/malbec/proprietary/vendor/lib64/qsn2all.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn2all.bin \
-    vendor/lenovo/malbec/proprietary/vendor/lib64/qsn3all.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn3all.bin \
-    vendor/lenovo/malbec/proprietary/vendor/persist/display/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/persist/display/dolby_vision.cfg \
-    vendor/lenovo/malbec/proprietary/vendor/vendor_a:$(TARGET_COPY_OUT_VENDOR)/vendor_a
+    vendor/lenovo/malbec/proprietary/vendor/lib64/qsn3all.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn3all.bin
 
 PRODUCT_PACKAGES += \
+    libdolbyeffect \
     android.hardware.bluetooth.audio-impl \
     btaudio_offload_if \
     com.qti.eeprom.gt24p128e2csli_s5kjn1 \
@@ -1754,6 +1753,7 @@ PRODUCT_PACKAGES += \
     libdolbydecoderprocessor \
     libdolbyeglcore \
     libdolbyottcameracontrol \
+    libdolbyproxyandroid \
     libdpp_manager \
     libdpps \
     libdrmfs \
