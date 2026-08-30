@@ -1,0 +1,17 @@
+key usage 0x0c0601   PEN_TWO_CLICK
+key usage 0x0c0610   PEN_360_THREE_CLICK
+key usage 0x0c0611   PEN_D_LONG_PRESS
+key usage 0x0c0612   PEN_D_SLIDE_DOWN
+key usage 0x0c0613   PEN_D_SLIDE_UP
+key usage 0x0c0614   PEN_D_CLICK
+key usage 0x0c0616   PEN_SQUEEZE_ONE
+key usage 0x0c0617   PEN_SQUEEZE_PRESSED
+key usage 0x0c0618   PEN_SQUEEZE_TWO
+key usage 0x0c0619   PEN_SQUEEZE_ENTER
+key usage 0x0c0620   PEN_SQUEEZE_EXIT
+key usage 0x0c0621   PEN_UL_SQUEEZE_ENTER
+key usage 0x0c0622   PEN_UL_SQUEEZE_EXIT
+key usage 0x0c0623   PEN_TAIL_PRESSED
+key usage 0x0c0624   PEN_TAIL_RELEASED
+key usage 0x0c0625   PEN_SWING
+
