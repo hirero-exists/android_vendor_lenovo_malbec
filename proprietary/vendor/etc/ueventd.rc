@@ -624,3 +624,5 @@ subsystem mem_buf_vm
 
 # IPA Events
 /dev/ipa_events         0660   radio      radio
+/sys/class/power_supply/battery charging_enabled 0664 system system
+/sys/class/power_supply/battery input_suspend 0664 system system
