@@ -79,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/malbec/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/lenovo/malbec/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
     vendor/lenovo/malbec/proprietary/system_ext/etc/perf/wlc_model.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/wlc_model.tflite \
+    vendor/lenovo/malbec/proprietary/system_ext/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.dolby.daxservice.xml \
     vendor/lenovo/malbec/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/lenovo/malbec/proprietary/vendor/etc/5GNR_LTE_CN_V9.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/5GNR_LTE_CN_V9.cfg \
     vendor/lenovo/malbec/proprietary/vendor/etc/ASR_binary/Whisper/libQnnHtpV79Skel.so:$(TARGET_COPY_OUT_VENDOR)/etc/ASR_binary/Whisper/libQnnHtpV79Skel.so \
@@ -2195,6 +2196,8 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libquasar \
     libreverbaidl \
+    libswdapaidl \
+    libswgamedapaidl \
     libvisualizeraidl \
     libvolumelistener \
     vendor.display.color@1.0 \
@@ -2497,6 +2500,7 @@ PRODUCT_PACKAGES += \
     FrameworksUtilsSysService \
     PowerOffAlarm \
     WfdService \
+    daxService \
     ims \
     qcrilmsgtunnel \
     ImsRtpService-aidl.xml \
