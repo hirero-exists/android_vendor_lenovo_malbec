@@ -35686,6 +35686,17 @@ android_app_import {
 }
 
 android_app_import {
+    name: "ZuiNotes",
+    owner: "lenovo",
+    apk: "proprietary/product/app/ZuiNotes/ZuiNotes.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}
+
+android_app_import {
     name: "FrameworksUtilsSysService",
     owner: "lenovo",
     apk: "proprietary/system_ext/app/FrameworksUtilsSysService/FrameworksUtilsSysService.apk",

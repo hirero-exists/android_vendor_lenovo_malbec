@@ -2497,6 +2497,7 @@ PRODUCT_PACKAGES += \
     TxPwrAdmin \
     com.qualcomm.qti.gpudrivers.sun.api35 \
     pasrservice \
+    ZuiNotes \
     FrameworksUtilsSysService \
     PowerOffAlarm \
     WfdService \
